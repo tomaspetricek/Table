@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tomaspetricek/Programming/Languages/Cpp/projects/table/Table.h
+vector
+-
+tuple
+-
+
+/Users/tomaspetricek/Programming/Languages/Cpp/projects/table/main.cpp
+iostream
+-
+Table.h
+/Users/tomaspetricek/Programming/Languages/Cpp/projects/table/Table.h
+
